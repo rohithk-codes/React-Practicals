@@ -53,12 +53,19 @@
 
 
 import React from 'react'
-import Counter from "./components/newCounter"
+
+import useCounter from './customhook/Customcounter'
 
 const App = () => {
+
+  const {count,increment,decrement,reset} = useCounter(0)
+
   return (
     <div>
-      <Counter/>
+   <h1>Count:{count}</h1>
+   <button onClick={increment}>increment</button>
+   <button onClick={decrement}>decrement</button>
+   <button onClick={reset}>reset</button>
     </div>
   )
 }
