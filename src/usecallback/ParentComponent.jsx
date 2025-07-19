@@ -8,7 +8,7 @@ const ParentComponent = ()=>{
 
     const handleClick = useCallback(()=>{
   
-console.log("button clicked")
+        console.log("Button clicked")
 
     },[value])
 
