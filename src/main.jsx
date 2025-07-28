@@ -4,12 +4,13 @@ import "./index.css";
 import App from "./App";
 import { Provider } from "react-redux";
 import {store} from './reduxslice/Store'
+import Compo from './Compo'
 
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Provider store={store}>
-       <App />
+    <Compo/>
     </Provider>
    
   </StrictMode>
