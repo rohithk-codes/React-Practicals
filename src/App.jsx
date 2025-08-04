@@ -58,7 +58,7 @@ import useCounter from './customhook/Customcounter'
 
 const App = () => {
 
-  const {count,increment,decrement,reset} = useCounter(0)
+  const {count,increment,decrement,reset} = useCounter(1)
 
   return (
     <div>
