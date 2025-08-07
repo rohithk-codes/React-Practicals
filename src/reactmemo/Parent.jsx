@@ -5,7 +5,7 @@ import Child from './Child.jsx'
 
 const Parent = () => {
 
-    const [count,setCount] = useState(0)
+    const [count,setCount] = useState(1)
     const [variable,setVariable] = useState(1)
 
   return (
