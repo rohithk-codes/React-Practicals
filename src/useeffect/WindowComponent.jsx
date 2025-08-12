@@ -12,7 +12,7 @@ const WindowComponent = ()=>{
 
         return()=>{
             window.removeEventListener("resize",handleResize);
-            console.log("event listener removed")
+            console.log("Event listener removed")
         }
     },[])
 
