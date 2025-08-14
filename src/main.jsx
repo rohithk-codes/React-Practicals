@@ -9,9 +9,7 @@ import Compo from './Compo'
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Provider store={store}>
-    <Compo/>
-    </Provider>
-   
+    
+   <App/>
   </StrictMode>
 );
