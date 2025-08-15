@@ -8,11 +8,11 @@ function Autocounter() {
 
   useEffect(() => {
     let interval
-    if (mode === "increment") {
+    if (mode === "Increment") {
       interval = setInterval(() => {
         setCount((prev) => prev + 1);
       }, 1000);
-    } else if (mode === "decrement") {
+    } else if (mode === "Decrement") {
       interval = setInterval(() => {
         setCount((prev) => prev - 1);
       }, 1000);
