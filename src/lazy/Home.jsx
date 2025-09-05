@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <div>
-      <Suspense fallback={<div>Loading MyComponent....</div>}>
+      <Suspense fallback={<div>Loading MyComponent.....</div>}>
         <p>Home</p>
         <button onClick={() => setLoad("contact")}>Contact</button>
         <button onClick={() => setLoad("login")}>Login</button>
