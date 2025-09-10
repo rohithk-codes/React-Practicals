@@ -21,8 +21,8 @@ function Autocounter() {
     return () => clearInterval(interval);
   }, [mode]);
 
-  const handleincrement=()=>setMode('increment')
-  const handledecrement=()=>setMode('decrement')
+  const handleincrement=()=>setMode('Increment')
+  const handledecrement=()=>setMode('Decrement')
   const handlereset=()=>{
     setMode(null)
     setCount(0)
